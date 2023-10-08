@@ -1,8 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/hatter.jpg);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+}
+
+
+div#main {
+    width: 80%;
+    margin: auto;
+  
+}
+
+div#nav {
+    position: sticky;
+    top: 0;
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: chartreuse;
+}
+
+li a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    color:black;
+    text-align: center;
+
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+#nav:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
 h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 30%;
+    float: left;
+    padding-right: 15px;
+}
+
+h4 {
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+
+}
+
+.bdi {
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+p {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: justify;
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: 150px;
+    bottom: 5px;
     text-align: center;
 }
 
-.box {
-    background-color: rgb(166, 164, 164);
-    width: 20%;
+h1,
+h3,
+h4, 
+p,
+th,
+td {
+    color:chartreuse;
 }
