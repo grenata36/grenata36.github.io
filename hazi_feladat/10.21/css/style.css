@@ -168,4 +168,15 @@ footer {
     nav {
         width: 100%;
     }
+    
+    #sc_one,
+    #sc_two,
+    #sc_three {
+        grid-column: 1/5;
+    }
+
+    aside {
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
 }
