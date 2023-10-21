@@ -150,3 +150,10 @@ footer {
     padding: 100px;
     background-color: #E7E6E6;
 }
+
+@media screen and (max-width:768px) {
+    .content {
+        width: 100%;
+        background-color: #D7B520;
+    }
+}
