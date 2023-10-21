@@ -157,6 +157,10 @@ footer {
         background-color: #D7B520;
     }
 
+    h1 {
+        text-align: left;
+    }
+
     img {
         display: none;
     }
@@ -168,7 +172,7 @@ footer {
     nav {
         width: 100%;
     }
-    
+
     #sc_one,
     #sc_two,
     #sc_three {
