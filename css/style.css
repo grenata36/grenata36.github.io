@@ -1,58 +1,80 @@
-div#main {
-    width: 70%;
-    margin: auto;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-div#nav {
-    background-color: blueviolet;
-    width: 250px;
-    border: 2px solid black;
-    border-radius: 50%;
+.content {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+
+#one {
+    grid-column: 2/4;
+}
+
+#three,
+#four,
+#five,
+#six {
+    grid-column: 1/2;
+}
+
+#two {
+    grid-row: 2;
+}
+
+#three,
+#four,
+#five,
+#six {
+    border:1px solid black;
+}
+
+#one {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#two {
+    margin-bottom: 15px;
+}
+
+#three,
+#four,
+#five,
+#six {
+    padding: 15px;
 }
 
 h1 {
     text-align: center;
-    border-radius: 5px;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 50px;
-    animation-name: animacio;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
 
-@keyframes animacio {
-    0% {
-        background-color: grey;
-    }
-
-    25% {
-        background-color: rgb(121, 81, 81);
-    }
-
-    50% {
-        background-color: rgb(133, 51, 51);
-    }
-
-    100% {
-        background-color: rgb(112, 3, 3);
-    }
-}
-
-h3 {
+h2 {
     text-align: center;
 }
 
-li a {
-    text-decoration: none;
-    padding: 5px;
-    display: block;
-    width: 150px;
-    text-align: center;
+a {
     color: black;
+    text-decoration: none;
+    padding-left: 50px;
 }
 
-li a:hover {
+#three:hover {
     background-color: grey;
-    border-radius: 50%;
+}
+#four:hover {
+    background-color: grey;
+}
+
+#five:hover {
+    background-color: gray;
+}
+
+#six:hover {
+    background-color: grey;
 }
