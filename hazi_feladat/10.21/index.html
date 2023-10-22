@@ -3,25 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="discription" content="Ha többet szeretnél megtudni Magyarország legnagyobb tavairól akkor látogass el az oldalunkra.">
+    <meta
+      name="discription"
+      content="Ha többet szeretnél megtudni Magyarország legnagyobb tavairól akkor látogass el az oldalunkra."
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Magyarország legnagyobb tavai</title>
   </head>
   <body>
     <div class="content">
       <header><h1>Magyarország legnagyobb tavai</h1></header>
-
+      <nav>
+        <a href="#balaton"><u>Balaton</u></a>
+        <a href="#tisza"><u>Tisza-tó</u></a>
+        <a href="#szelidi"><u>Szelidi-tó</u></a>
+        <a href="#urlap"><u>Űrlap</u></a>
+      </nav>
       <aside>
-        <nav>
-          <a href="#balaton"><u>Balaton</u></a>
-          <a href="#tisza"><u>Tisza-tó</u></a>
-          <a href="#szelidi"><u>Szelidi-tó</u></a>
-        </nav>
-       
-        <h2>Kérem töltse ki az űrlapot!</h2>
+        <h2 id="urlap">Kérem töltse ki az űrlapot!</h2>
         <form>
           <div>
-            <label for="name" id="name"><b>Teljes név</b></label> 
+            <label for="name" id="name"><b>Teljes név</b></label>
             <input type="text" id="name" placeholder="pl. Példa Aladár" />
           </div>
           <div>
