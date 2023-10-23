@@ -186,6 +186,6 @@ footer {
 
 @media (max-width: 768px) {
     h1 {
-      text-align: left;
+      text-align: center;
     }
   }
