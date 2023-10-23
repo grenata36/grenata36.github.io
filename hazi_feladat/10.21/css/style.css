@@ -183,3 +183,9 @@ footer {
         grid-row: 6/7;
     }
 }
+
+@media (max-width: 768px) {
+    h1 {
+      text-align: left;
+    }
+  }
