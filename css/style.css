@@ -12,6 +12,10 @@
     grid-gap: 15px;
 }
 
+p {
+    text-align: center;
+}
+
 #one {
     grid-column: 2/4;
 }
