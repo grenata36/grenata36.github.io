@@ -44,7 +44,7 @@ nav {
     width: 40%;
     margin: auto;
     grid-column: 1/5;
-   
+
 }
 
 a {
@@ -190,4 +190,3 @@ footer {
         display: block;
     }
 }
-
