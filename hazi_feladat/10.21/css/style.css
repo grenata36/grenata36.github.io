@@ -32,6 +32,10 @@ header {
     border-radius: 10px;
 }
 
+#urlap {
+    display: none;
+}
+
 h1 {
     text-align: center;
 }
@@ -181,10 +185,9 @@ footer {
         grid-column: 1/5;
         grid-row: 6/7;
     }
+
+    #urlap {
+        display: block;
+    }
 }
 
-@media (max-width: 768px) {
-    h1 {
-      text-align: center;
-    }
-  }
