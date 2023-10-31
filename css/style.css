@@ -8,7 +8,7 @@
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
 }
 
@@ -18,6 +18,8 @@ p {
 
 #one {
     grid-column: 2/4;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 #three,
@@ -35,13 +37,9 @@ p {
 #four,
 #five,
 #six {
-    border:1px solid black;
+    border: 1px solid black;
 }
 
-#one {
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
 
 #two {
     margin-bottom: 15px;
@@ -70,6 +68,7 @@ a {
 #three:hover {
     background-color: grey;
 }
+
 #four:hover {
     background-color: grey;
 }
@@ -80,4 +79,15 @@ a {
 
 #six:hover {
     background-color: grey;
+}
+
+@media screen and (max-width:768px) {
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #six  {
+        grid-column: 1/5;
+    }
 }
