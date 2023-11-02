@@ -4,12 +4,20 @@
     padding: 0;
 }
 
+
+
 .content {
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* ezt javítom*/
     grid-gap: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 p {
@@ -17,31 +25,13 @@ p {
 }
 
 #one {
-    grid-column: 2/4;
+    grid-column: 1/4;
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-#three,
-#four,
-#five,
-#six {
-    grid-column: 1/2;
-}
-
 #two {
     grid-row: 2;
-}
-
-#three,
-#four,
-#five,
-#six {
-    border: 1px solid black;
-}
-
-
-#two {
     margin-bottom: 15px;
 }
 
@@ -50,10 +40,10 @@ p {
 #five,
 #six {
     padding: 15px;
-}
-
-h1 {
-    text-align: center;
+    border: 1px solid black;
+    grid-column: 1/2;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
 h2 {
@@ -81,13 +71,62 @@ a {
     background-color: grey;
 }
 
+#js {
+    grid-row: 2;
+}
+
+#js_1 {
+    grid-column: 2;
+    grid-row: 3;
+    padding: 15px;
+    border: 1px solid black;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#js_1:hover {
+    background-color: gray;
+}
+
+#vizsga {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#vizsga_link {
+    border: 1px solid black;
+    padding: 15px;
+    grid-column: 3;
+    grid-row: 3/7;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#vizsga_link:hover {
+    background-color: grey;
+}
+
+
+
+
 @media screen and (max-width:768px) {
+
     #one,
     #two,
     #three,
     #four,
     #five,
-    #six  {
+    #six {
+        grid-column: 1/5;
+    }
+
+    #js {
+        grid-row: 9;
+        grid-column: 1/5;
+    }
+
+    #js_1 {
+        grid-row: 10;
         grid-column: 1/5;
     }
 }
