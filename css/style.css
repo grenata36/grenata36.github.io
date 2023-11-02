@@ -111,6 +111,11 @@ a {
 
 @media screen and (max-width:768px) {
 
+    
+h1 {
+    padding-bottom: 5px;
+}
+
     #one,
     #two,
     #three,
@@ -127,6 +132,16 @@ a {
 
     #js_1 {
         grid-row: 10;
+        grid-column: 1/5;
+    }
+
+    #vizsga {
+        grid-row: 11;
+        grid-column: 1/5;
+    }
+
+    #vizsga_link {
+        grid-row: 12;
         grid-column: 1/5;
     }
 }
