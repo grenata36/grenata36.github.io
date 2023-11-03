@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 .content {
     width: 70%;
@@ -18,6 +24,18 @@
 h1 {
     text-align: center;
     padding-bottom: 40px;
+    color: rgb(181, 3, 3);
+    padding: 15px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    padding: 15px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -46,9 +64,7 @@ p {
     box-shadow: 5px 5px 15px 5px #000000;
 }
 
-h2 {
-    text-align: center;
-}
+
 
 a {
     color: black;
@@ -111,10 +127,15 @@ a {
 
 @media screen and (max-width:768px) {
 
-    
-h1 {
-    padding-bottom: 5px;
-}
+
+    h1 {
+        padding-bottom: 5px;
+        color: rgb(181, 3, 3);
+    }
+
+    h2 {
+        color: red;
+    }
 
     #one,
     #two,
