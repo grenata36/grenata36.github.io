@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFE7DA;
+}
+
+.contener {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1yr);
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    margin-top: 15px;
+    background-image: url(../img/fejlec_hatter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 65%;
+    grid-column: 1/5;
+    border-radius: 10px;
+}
+
+/*Főoldal*/
+
+h1 {
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    grid-column: 1/5;
+    grid-row: 2;
+    padding: 40px 0 40px 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+nav a {
+    padding: 10px;
+    -webkit-box-shadow: 5px 1px 15px 5px #000000;
+    box-shadow: 5px 1px 15px 5px #000000;
+}
+
+
+nav a:hover {
+    background-color: grey;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+section {
+    grid-row: 3;
+    grid-column: 3/5;
+    background-color: #f0e1cb;
+    border-radius: 10px;
+}
+
+section p {
+    text-align: center;
+}
+
+aside {
+    grid-row: 3;
+    grid-column: 1;
+    background-color: #f0e1cb;
+    border-radius: 10px;
+}
+
+aside h2 {
+    padding-bottom: 15px;
+}
+
+td {
+    padding: 0 10px 5px 0;
+}
+
+.picture_box {
+    grid-column: 1/5;
+    grid-row: 4;
+    padding-top: 80px;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.picture img {
+    width: 20%;
+}
+
+
+/*Főoldal vége*/
+
+/*Szolgáltatások oldal*/
+
+h2 {
+    grid-column: 1/5;
+    grid-row: 3;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+img {
+    float: left;
+    width: 30%;
+    padding: 0 15px 15px 15px;
+}
+
+h3 {
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+
+.nail {
+    margin: 0 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.nail p {
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+
+#nail_1 {
+    grid-column: 1/5;
+    grid-row: 4;
+}
+
+#nail_1 p {
+    padding-top: 50px;
+}
+
+#nail_2 {
+    grid-column: 1/5;
+    grid-row: 5;
+}
+
+#nail_2_p1 {
+    padding-top: 30px;
+}
+
+#nail_3 {
+    grid-column: 1/5;
+    grid-row: 6;
+}
+
+#nail_3_p1 {
+    padding-top: 30px;
+}
+
+#nail_4 {
+    grid-column: 1/5;
+    grid-row: 7;
+}
+
+
+
+/*Szolgáltatások oldal vége*/

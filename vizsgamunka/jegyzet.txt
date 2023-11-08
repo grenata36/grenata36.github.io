@@ -1,0 +1,59 @@
+      <strong>
+          <p>Hétfő: 8.00 - 16.00</p>
+          <p>Kedd: 8.00 - 16.00</p>
+          <p>Szerda: 8.00 - 16.00</p>
+          <p>Csütörtök: 8.00 - 16.00</p>
+          <p>Péntek: 8.00 - 16.00</p>
+          <p>Szombat: 8.00 - 12.00</p>
+          <p>Vasárnap: Zárva</p></strong
+        >
+
+
+
+       <figure>   <h2>Bejelentkezés</h2>
+      <a href="tel:+36706247836">+36706247836</a></figure>
+
+
+
+        <form>
+        <div>
+          <label for="name">Név</label>
+          <input type="text" name="name" id="name" placeholder="" />
+        </div>
+        <div>
+          <label for="e-mail">E-mail cím</label>
+          <input type="email" name="e-mail" id="e-mail" />
+        </div>
+        <div>
+          <label for="telephone">Telefonszám</label>
+          <input type="tel" name="telephone" id="telephone" placeholder="" />
+        </div>
+        <div>
+          <input type="radio" id="javitas" name="nail" />
+          <label for="javitas">Javítás vagy pótlás</label>
+        </div>
+        <div>
+          <input type="radio" id="manikur" name="nail" />
+          <label for="manikur">Gépi manikűr</label>
+        </div>
+        <div>
+          <input type="radio" id="gel_lak" name="nail" />
+          <label for="gel_lak">Erősített gél lak</label>
+        </div>
+        <div>
+          <input type="radio" id="mukorom" name="nail" />
+          <label for="mukorom">Épített műköröm</label>
+        </div>
+        <select name="meret" id="meret">
+          <option value="-">-</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+          <option value="XXL">XXL</option>
+        </select>
+        <div>
+          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+        </div>
+        <button>Küldés</button>
+      </form>
