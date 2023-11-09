@@ -73,6 +73,8 @@ section {
     border-radius: 10px;
 }
 
+
+
 section p {
     text-align: center;
 }
@@ -92,7 +94,21 @@ td {
     padding: 0 10px 5px 0;
 }
 
+.picture_box {
+    grid-column: 1/5;
+    grid-row: 4;
+    padding-top: 80px;
+}
 
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.picture img {
+    width: 20%;
+}
 
 /*Főoldal vége*/
 
