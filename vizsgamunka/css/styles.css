@@ -94,7 +94,6 @@ td {
 
 
 
-
 /*Főoldal vége*/
 
 /*Szolgáltatások oldal*/
@@ -162,3 +161,13 @@ h3 {
 
 
 /*Szolgáltatások oldal vége*/
+/*Elérhetőségek oldal*/
+
+footer {
+    grid-row: 5;
+    grid-column: 1/5;
+}
+
+iframe {
+    width: 100%;
+}
