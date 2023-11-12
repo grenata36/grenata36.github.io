@@ -281,11 +281,8 @@ h3 {
         width: 100%;
     }
 
-   .nail_1,
-   .nail_2,
-   .nail_3,
-   .nail_4 {
-    margin-right: 0;
+.nail {
     margin-left: 0;
-   }
+    margin-right: 0;
+}
 }
