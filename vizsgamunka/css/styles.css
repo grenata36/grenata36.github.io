@@ -275,3 +275,17 @@ h3 {
 }
 
 /*Munkáim oldal vége*/
+
+@media screen and (max-width:768px) {
+    .contener {
+        width: 100%;
+    }
+
+   .nail_1,
+   .nail_2,
+   .nail_3,
+   .nail_4 {
+    margin-right: 0;
+    margin-left: 0;
+   }
+}
