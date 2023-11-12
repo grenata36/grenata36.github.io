@@ -74,3 +74,4 @@
 .picture img {
     width: 20%;
 }
+
