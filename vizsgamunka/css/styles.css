@@ -6,6 +6,7 @@
 
 body {
     background-color: #EFE7DA;
+    font-family: "Roboto", sans-serif;
 }
 
 .contener {
@@ -34,8 +35,7 @@ h1 {
     padding: 150px 0 0 200px;
     font-size: 30px;
     color: #f3a839;
-    ;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Sofia", sans-serif;
 }
 
 h1::first-letter {
