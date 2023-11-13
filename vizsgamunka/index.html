@@ -7,6 +7,8 @@
       name="discription"
       content="Fontos számodra, hogy a kezed ápolt legyen? Szereted az egyszerű körmöket? Esetleg valami extrém megjelenésre vágysz? Jelentkezz be, és csináljuk meg együtt álmaid körmét!"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css" />
     <title>Körömparadicsom | Főoldal</title>
   </head>
@@ -18,7 +20,6 @@
       <nav>
         <a href="index.html">Főoldal</a>
         <a href="szolgaltatasok.html">Szolgáltatások</a>
-        <a href="munkaim.html">Munkáim</a>
         <a href="elerhetoseg.html">Elérhetőség</a>
       </nav>
       <section>
@@ -88,23 +89,44 @@
           </tr>
         </table>
       </aside>
-      <div id="aside">
-        <h2>Elérhetőség</h2>
-        <p><b>Wágner Anikó</b></p>
-        <a href="tel:+36706247836">+36706247836</a>
-        <p>Budapest, Király u. 71, 1077</p>
+
+      <div class="gallery">
+<h2>Munkáim</h2>
+<div class="slider">
+  <figure>
+<img src="img/korom_1.jpg" >
+<img src="img/korom_2.jpg" >
+<img src="img/korom_3.jpg" >
+<img src="img/korom_4.jpg" >
+<img src="img/korom_5.jpg" >
+<img src="img/korom_6.jpg" >
+<img src="img/korom_7.jpg" >
+<img src="img/korom_8.jpg" >
+<img src="img/korom_9.jpg" >
+<img src="img/korom_10.jpg" >
+  </figure>
+
+  <button class="btn-prev"><i class="fa fa-arrow-circle-left"></i></button>
+  <button class="btn-next"><i class="fa fa-arrow-circle-right"></i></button>
+</div>
       </div>
-      
-      <footer>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.2919147776274!2d19.065065176121426!3d47.5037059711806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc6f74ced879%3A0xb6ddf789c6d02257!2sBudapest%2C%20Kir%C3%A1ly%20u.%2071%2C%201077!5e0!3m2!1shu!2shu!4v1699533678685!5m2!1shu!2shu"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </footer>
+
+
+      <script>
+        $(document).ready (function(){
+            x = 0;
+            $ ('.btn-next').click (function(){
+                x = (x<=300)?(x+100):0;
+                $ ('figure').css ('left', -x+"%");
+            })
+
+            $ ('.btn-prev').click (function(){
+                x = (x>=100)?(x-100):400;
+                $ ('figure').css ('left', -x+"%");
+            })
+        })
+    </script>
   </body>
 </html>
+
+
