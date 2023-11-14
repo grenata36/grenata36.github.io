@@ -8,7 +8,9 @@
       content="Fontos számodra, hogy a kezed ápolt legyen? Szereted az egyszerű körmöket? Esetleg valami extrém megjelenésre vágysz? Jelentkezz be, és csináljuk meg együtt álmaid körmét!"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Körömparadicsom | Elérhetőség</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Körömparadicsom | Bejelentkezés</title>
   </head>
   <body>
     <div class="contener">
@@ -18,21 +20,20 @@
       <nav>
         <a href="index.html">Főoldal</a>
         <a href="szolgaltatasok.html">Szolgáltatások</a>
-        <a href="elerhetoseg.html">Elérhetőség</a>
+        <a href="bejelentkezes.html">Bejelentkezés</a>
       </nav>
 
       <form>
         <div>
-          <label for="name"> <b>Név</b> </label>
-
+          <label for="name" id="label_name"> <b>Név</b> </label>
           <input type="text" name="name" id="name" placeholder="" />
         </div>
         <div>
-          <label for="e-mail"> <b>E-mail cím</b></label>
+          <label for="e-mail" id="label_email"> <b>E-mail cím</b></label>
           <input type="email" name="e-mail" id="e-mail" />
         </div>
         <div>
-          <label for="telephone"><b>Telefonszám </b></label>
+          <label for="telephone" id="label_tel"><b>Telefonszám </b></label>
           <input type="tel" name="telephone" id="telephone" placeholder="" />
         </div>
         <h4>Szolgáltatások</h4>
@@ -83,7 +84,7 @@
         <div>
           <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
         </div>
-        <button>Küldés</button>
+        <button><b>Küldés </b></button>
       </form>
     </div>
     <!-- <h2>Elérhetőségek</h2>
