@@ -32,9 +32,8 @@ header {
 
 h1 {
     text-align: center;
-    padding: 150px 0 0 200px;
-    font-size: 30px;
-    color: #f3a839;
+    padding: 150px 0 0 0;
+    font-size: 40px;
     font-family: "Sofia", sans-serif;
 }
 
@@ -327,6 +326,7 @@ iframe {
 
     header {
         margin: 0;
+        padding: 0;
     }
 
     h1 {
