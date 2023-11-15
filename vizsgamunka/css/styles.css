@@ -13,7 +13,7 @@ body {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(5, 1yr);
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -54,7 +54,7 @@ nav {
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     -webkit-box-shadow: 5px 1px 15px 5px #000000;
     box-shadow: 5px 1px 15px 5px #000000;
@@ -232,6 +232,10 @@ form {
     margin: auto;
 }
 
+form h3 {
+    padding-bottom: 50px;
+}
+
 h4 {
     padding: 10px 0 5px 0;
 }
@@ -267,6 +271,18 @@ h4 {
 
 button {
     padding: 5px;
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+iframe {
+    width: 100%;
+    margin: auto;
+    height: 200px;
 }
 
 
