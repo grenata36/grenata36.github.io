@@ -157,7 +157,7 @@ td {
 }
 
 .modal-content {
-    position: absolute;
+   position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -175,7 +175,7 @@ td {
 
 
 .close {
-    position: absolute;
+   position: absolute;
     top: 20px;
     right: 30px;
     font-size: 40px;
@@ -337,12 +337,16 @@ iframe {
         padding: 3px;
     }
 
+    .modal-content {
+        position: static;
+    }
     .modal-content img {   /*ez a nagyban megjelenő, finomítani kell még*/
         width: 200%;
-        height: auto;
     }
 
-
+    .close {
+        position: static;
+    }
 
     /* .display_none {
         display: block;
