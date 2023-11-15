@@ -96,40 +96,46 @@
 
       <div class="gallery">
 <h2>Munkáim</h2>
-<div class="slider">
-  <figure>
-<img src="img/korom_1.jpg" >
-<img src="img/korom_2.jpg" >
-<img src="img/korom_3.jpg" >
-<img src="img/korom_4.jpg" >
-<img src="img/korom_5.jpg" >
-<img src="img/korom_6.jpg" >
-<img src="img/korom_7.jpg" >
-<img src="img/korom_8.jpg" >
-<img src="img/korom_9.jpg" >
-<img src="img/korom_10.jpg" >
-  </figure>
+<div class="gallery-container">
 
-  <button class="btn-prev"><i class="fa fa-arrow-circle-left"></i></button>
-  <button class="btn-next"><i class="fa fa-arrow-circle-right"></i></button>
+  <img src="img/korom_1.jpg" alt="Kép 1" class="gallery-image" data-large="img/korom_1.jpg">
+  <img src="img/korom_2.jpg" alt="Kép 2" class="gallery-image" data-large="img/korom_2.jpg">
+  <img src="img/korom_3.jpg" alt="Kép 3" class="gallery-image" data-large="img/korom_3.jpg">
+  <img src="img/korom_4.jpg" alt="Kép 4" class="gallery-image" data-large="img/korom_4.jpg">
+  <img src="img/korom_5.jpg" alt="Kép 5" class="gallery-image" data-large="img/korom_5.jpg">
+  <img src="img/korom_6.jpg" alt="Kép 6" class="gallery-image" data-large="img/korom_6.jpg">
+  <img src="img/korom_7.jpg" alt="Kép 7" class="gallery-image" data-large="img/korom_7.jpg">
+  <img src="img/korom_8.jpg" alt="Kép 8" class="gallery-image" data-large="img/korom_8.jpg">
+  <img src="img/korom_9.jpg" alt="Kép 9" class="gallery-image" data-large="img/korom_9.jpg">
+  <img src="img/korom_10.jpg" alt="Kép 10" class="gallery-image" data-large="img/korom_10.jpg">
 </div>
-      </div>
 
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content">
+    <img id="modal-image" src="" alt="Nagy méretű kép">
+  </div>
+</div>
 
-      <script>
-        $(document).ready (function(){
-            x = 0;
-            $ ('.btn-next').click (function(){
-                x = (x<=300)?(x+100):0;
-                $ ('figure').css ('left', -x+"%");
-            })
+<script>
+  $(document).ready(function() {
+  
+    $('.gallery-image').click(function() {
+      $('#modal-image').attr('src', $(this).data('large'));
+      $('#myModal').fadeIn();
+    });
+  
 
-            $ ('.btn-prev').click (function(){
-                x = (x>=100)?(x-100):400;
-                $ ('figure').css ('left', -x+"%");
-            })
-        })
-    </script>
+    $('.close, #myModal').click(function() {
+      $('#myModal').fadeOut();
+    });
+  
+
+    $('#modal-image').click(function(event) {
+      event.stopPropagation();
+    });
+  });
+  </script>
   </body>
 </html>
 
