@@ -145,6 +145,7 @@ td {
     max-height: 200px;
     cursor: pointer;
     transition: transform 0.3s;
+    padding: 5px;
 }
 
 
@@ -192,7 +193,6 @@ td {
 }
 
 /* Galéria vége*/
-
 
 /*Főoldal vége*/
 
