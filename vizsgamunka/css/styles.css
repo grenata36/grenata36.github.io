@@ -87,6 +87,11 @@ section {
 
 section p {
     text-align: center;
+    padding: 4px;
+}
+
+section h2 {
+    padding-bottom: 15px;
 }
 
 aside {
