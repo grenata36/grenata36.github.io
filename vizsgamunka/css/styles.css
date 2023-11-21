@@ -94,6 +94,10 @@ section h2 {
     padding-bottom: 15px;
 }
 
+section a {
+    color: black;
+}
+
 aside {
     grid-row: 3;
     grid-column: 1;
