@@ -7,6 +7,7 @@
       name="discription"
       content="Fontos számodra, hogy a kezed ápolt legyen és már ki is találtad mit szeretnél? Jelentkezz be, és csináljuk meg együtt álmaid körmét!"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -106,7 +107,7 @@
         <div>
           <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
         </div>
-        <button>Küldés</button>
+        <button><b>Küldés</b></button>
       </form>
     </div>
 
@@ -121,5 +122,12 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </footer>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          alert("Hamarosan felveszem veled a kapcsolatot!");
+        });
+      });
+    </script>
   </body>
 </html>
