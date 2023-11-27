@@ -342,6 +342,9 @@ iframe {
         font-size: 30px;
     }
 
+    nav {
+        gap: 10px;}
+
     nav a {
         padding: 3px;
     }
