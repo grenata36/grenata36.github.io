@@ -310,6 +310,10 @@ button {
     padding: 5px;
 }
 
+.protection {
+    padding: 20px 0 25px 0;
+}
+
 footer {
     width: 80%;
     margin: auto;
