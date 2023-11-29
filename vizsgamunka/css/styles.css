@@ -329,6 +329,24 @@ iframe {
 
 /* Elérhetőslgek oldal vége*/
 
+/* Adatvédelem*/
+
+main {
+    padding-top: 10px;
+    grid-column: 1/6;
+}
+
+main h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main p {
+    padding: 10px 0 10px 0;
+    text-align: justify;
+}
+
+/* Adatvédelem vége */
 
 
 @media screen and (max-width:768px) {
@@ -398,6 +416,14 @@ iframe {
 
     #massage {
         width: 300px;
+    }
+
+    main p {
+        padding: 10px 10px 10px 10px;
+    }
+
+    main h5 {
+        padding-left: 10px;
     }
 
 }
