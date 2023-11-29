@@ -81,7 +81,7 @@ section {
     grid-column: 3/6;
     background-color: #f0e1cb;
     border-radius: 10px;
-    border: 4px solid #f2d5a9;
+    /* border: 4px solid #f2d5a9; */
 }
 
 section p {
@@ -102,12 +102,16 @@ aside {
     grid-column: 1/3;
     background-color: #f0e1cb;
     border-radius: 10px;
-    border: 4px solid #f2d5a9;
-    margin-right: 10px;
+    /* border: 4px solid #f2d5a9; */
 }
 
 aside h2 {
     padding-bottom: 15px;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
 }
 
 td {
