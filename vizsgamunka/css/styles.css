@@ -114,7 +114,11 @@ table {
 }
 
 td {
-    padding: 0 10px 5px 0;
+    padding-bottom: 5px;
+}
+
+td.day {
+    padding-right: 80px;
 }
 
 /*Galéria*/
