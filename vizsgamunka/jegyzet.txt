@@ -200,5 +200,10 @@ $(document).ready(function() {
   color: #f3a839;
 
 
+navigáció
+
+   -webkit-box-shadow: 5px 1px 15px 5px #000000;
+    box-shadow: 5px 1px 15px 5px #000000;
+
 
 
