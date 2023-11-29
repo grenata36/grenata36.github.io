@@ -408,6 +408,10 @@ main p {
         margin:0 auto;
     }
 
+    td.day {
+        padding-right: 40px;
+    }
+
     .service {
         margin: auto;
     }
