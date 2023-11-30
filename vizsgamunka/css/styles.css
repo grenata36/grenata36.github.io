@@ -372,10 +372,20 @@ main p {
     }
 
     nav {
-        gap: 10px;}
+        gap: 10px;
+        padding: 20px 0 20px 0;   
+    }
 
     nav a {
         padding: 3px;
+    }
+
+    #works {
+        padding-bottom: 20px;
+    }
+
+    .gallery {
+        padding-top: 30px;
     }
 
     .modal-content {
