@@ -31,9 +31,10 @@ header {
 
 h1 {
     text-align: center;
-    padding: 125px 0 0 0;
+    padding: 200px 0 0 0;
     font-size: 40px;
     font-family: "Sofia", sans-serif;
+    /* background-color:rgba(255, 255, 255, 0.18); */
 }
 
 h1::first-letter {
@@ -264,16 +265,18 @@ h3 {
     border: 4px solid #f2d5a9;
 }
 
-
-
 /*Szolgáltatások oldal vége*/
 
-/* Elérhetőslgek oldal*/
+/* Bejelentkezés oldal*/
 
 form {
     grid-column: 3;
     grid-row: 3;
     margin: auto;
+    background-color: #f0e1cb;
+    border: 4px solid #f2d5a9;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
 }
 
 form h3 {
@@ -288,37 +291,49 @@ h4 {
     padding-right: 71px;
 }
 
-#name {
-    width: 250px;
-}
-
 #label_email {
     padding-right: 25px;
-}
-
-#e-mail {
-    width: 250px;
 }
 
 #label_tel {
     padding-right: 8px;
 }
 
+#name,
+#e-mail,
 #telephone {
-    width: 250px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 4px solid #f2d5a9;
+    width: 260px;
 }
 
 #massage {
-    width: 370px;
-    height: 177px;
+    width: 466px;
+    height: 143;
+    border: 4px solid #f2d5a9;
+
 }
 
 button {
-    padding: 5px;
+    padding: 10px;
+    border: 4px solid #f2d5a9;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    margin: 0 0 10px 120px ;
+}
+
+button:hover {
+    background-color:  rgb(166, 163, 163);
 }
 
 .protection {
     padding: 20px 0 25px 0;
+}
+
+input#data_protection {
+    cursor: pointer;
 }
 
 footer {
@@ -334,7 +349,7 @@ iframe {
 }
 
 
-/* Elérhetőslgek oldal vége*/
+/* Bejelentkezés oldal vége*/
 
 /* Adatvédelem*/
 
