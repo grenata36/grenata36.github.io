@@ -42,6 +42,12 @@ h1::first-letter {
     font-weight: bold;
 }
 
+
+.flag_img {
+    width: 5%;
+    height: 10%;
+}
+
 nav {
     display: flex;
     gap: 30px;
