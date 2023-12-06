@@ -18,13 +18,15 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  
     <title>Körömparadicsom | Bejelentkezés</title>
   </head>
   <body>
     <div class="contener">
-      <header class=" animate__animated animate__zoomIn">
+      <header class="animate__animated animate__zoomIn">
         <h1><i>K</i>örömparadicsom</h1>
       </header>
       <nav>
@@ -33,16 +35,17 @@
         <a href="bejelentkezes.html">Bejelentkezés</a>
       </nav>
 
-      <form  action="https://formsubmit.co/renaschumi74@gmail.com" method="POST">
+      <form action="https://formsubmit.co/renaschumi74@gmail.com" method="POST">
         <h3><u>Közvetlen üzenet küldése</u></h3>
-        <div> 
+        <div>
           <label for="name" id="label_name"> <b>Név</b> </label>
           <input
             type="text"
             name="name"
             id="name"
             placeholder="pl. Példa Aladár"
-         required />
+            required
+          />
         </div>
         <div>
           <label for="e-mail" id="label_email"> <b>E-mail cím</b></label>
@@ -51,7 +54,8 @@
             name="e-mail"
             id="e-mail"
             placeholder="pl.pelda.aladar@gmail.com"
-        required  />
+            required
+          />
         </div>
         <div>
           <label for="telephone" id="label_tel"><b>Telefonszám </b></label>
@@ -60,7 +64,8 @@
             name="telephone"
             id="telephone"
             placeholder="+36701234567"
-        required  />
+            required
+          />
         </div>
         <h4>Szolgáltatás</h4>
         <div>
@@ -110,18 +115,22 @@
         <div>
           <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
         </div>
-      
+
         <div class="protection">
-           <input type="checkbox" id="data_protection" />
-          <label for="data_protection">Elfogadom az <a href="adatvedelem.html" target="_blank">adatvédelmi feltételeket</a>  és hozzájárulásom adom, <br>hogy a megadott adataimat a Körömparadicsom saját célra kezelje.</label>
+          <input type="checkbox" id="data_protection" />
+          <label for="data_protection"
+            >Elfogadom az
+            <a href="adatvedelem.html" target="_blank"
+              >adatvédelmi feltételeket</a
+            >
+            és hozzájárulásom adom, <br />hogy a megadott adataimat a
+            Körömparadicsom saját célra kezelje.</label
+          >
         </div>
         <button><b>Küldés</b></button>
       </form>
-
-     
     </div>
-
-    <footer>
+    <div id="footer">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.2919147776274!2d19.065065176121426!3d47.5037059711806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc6f74ced879%3A0xb6ddf789c6d02257!2sBudapest%2C%20Kir%C3%A1ly%20u.%2071%2C%201077!5e0!3m2!1shu!2shu!4v1699533678685!5m2!1shu!2shu"
         width="600"
@@ -131,15 +140,6 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-    </footer>
-
-    <!-- <script>
-      $(document).ready(function () {
-        $("button").click(function () {
-          alert('Köszönöm! Jelentkezésed rögzítettem. Hamarosan felveszem veled a kapcsolatot!');
-        });
-      });
-    </script> -->
-
+    </div>
   </body>
 </html>
