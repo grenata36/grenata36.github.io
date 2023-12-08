@@ -314,6 +314,20 @@ h4 {
     padding-right: 8px;
 }
 
+/* angol*/
+#label_name_eng {
+    padding-right: 50px;
+}
+
+#label_email_eng {
+    padding-right: 49px;
+}
+
+#label_tel_eng {
+    padding-right: 18px;
+}
+/*angol*/
+
 #name,
 #e-mail,
 #telephone {
