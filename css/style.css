@@ -162,13 +162,18 @@ a {
         grid-column: 1/5;
     }
 
-    #vizsga {
+    #examination {
         grid-row: 11;
-        grid-column: 1/5;
+        grid-column: 1/5;padding-top: 15px;
     }
 
-    #vizsga_link {
+    #examination_link {
         grid-row: 12;
         grid-column: 1/5;
+        
+    }
+
+    #examination_p {
+        padding-top: 0;
     }
 }
