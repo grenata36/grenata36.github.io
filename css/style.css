@@ -104,12 +104,12 @@ a {
     background-color: gray;
 }
 
-#vizsga {
+#examination {
     grid-column: 3;
     grid-row: 2;
 }
 
-#vizsga_link {
+#examination_link {
     border: 1px solid black;
     padding: 15px;
     grid-column: 3;
@@ -118,8 +118,12 @@ a {
     box-shadow: 5px 5px 15px 5px #000000;
 }
 
-#vizsga_link:hover {
+#examination_link:hover {
     background-color: grey;
+}
+
+#examination_p {
+    padding-top: 100px;
 }
 
 
