@@ -2,16 +2,14 @@ body {
     background-color: palegoldenrod;
 }
 
-.menu-item {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+h1 {
+    padding-left: 50px;
 }
 
 .menu-item:hover {
     transform: scale(1.1);
     transition: transform 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 .menu-li{
     margin-right: 30px;
@@ -23,27 +21,38 @@ body {
 
 .nav-link:hover {
     color: black;
-    background-color: whitesmoke;
-    border-radius: 80px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61);
+    border-radius: 50%;
 }
 
-section {
+a {
+    font-weight: bold;
+}
+
+section#home {
     width: 80%;
     margin: 0 auto;
     padding: 50px 0 50px 0;
 }
 
-h1 {
-    padding-bottom: 20px;
-}
-
-h1,
 p {
     text-align: center;
 }
 
 h3 {
     padding: 20px 0 20px 0;
+    text-align: center;
 }
 
+section#img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
 
+img {
+    width: 30%;
+}
