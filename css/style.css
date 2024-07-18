@@ -1,3 +1,7 @@
+body {
+    background-color: palegoldenrod;
+}
+
 .menu-item {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -8,14 +12,38 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
 .menu-li{
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .nav-link {
-    color: black
+    color: black;
 }
 
 .nav-link:hover {
     color: black;
+    background-color: whitesmoke;
+    border-radius: 80px;
 }
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+h3 {
+    padding: 20px 0 20px 0;
+}
+
+
