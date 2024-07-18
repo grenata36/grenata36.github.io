@@ -1,12 +1,15 @@
+
+
 body {
     background-color: palegoldenrod;
 }
 
-h1 {
+h2 {
     padding-left: 50px;
 }
 
 .menu-item:hover {
+    cursor: pointer;
     transform: scale(1.1);
     transition: transform 0.3s;
 }
@@ -23,7 +26,7 @@ h1 {
     color: black;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61);
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 a {
@@ -33,7 +36,12 @@ a {
 section#home {
     width: 80%;
     margin: 0 auto;
-    padding: 50px 0 50px 0;
+    padding: 0px 0 50px 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 p {
@@ -51,6 +59,13 @@ section#img-container {
     gap: 15px;
     justify-content: center;
     padding-bottom: 50px;
+}
+
+.img-home {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
 }
 
 img {
