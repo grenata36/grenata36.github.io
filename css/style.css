@@ -1,17 +1,5 @@
-
-
-body {
-    background-color: palegoldenrod;
-}
-
 h2 {
     padding-left: 50px;
-}
-
-.menu-item:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.3s;
 }
 
 .menu-li{
@@ -22,12 +10,11 @@ h2 {
     color: black;
 }
 
-.nav-link:hover {
+ /*.nav-link:hover {
     color: black;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61); 
+   -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61);
-    border-radius: 10px;
-}
+}*/
 
 a {
     font-weight: bold;
@@ -56,9 +43,8 @@ h3 {
 section#img-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 5px;
     justify-content: center;
-    padding-bottom: 50px;
 }
 
 .img-home {

@@ -1,0 +1,6 @@
+<section id="home">
+  <h1>Bemutatkozás</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nulla culpa dolorum vitae consequuntur, atque ipsam vel aspernatur minima similique tenetur rerum adipisci quam. Maiores ea error odio fuga hic?</p>
+</section>
+<hr>
+  <h3>Munkáim</h3>
