@@ -1,6 +1,146 @@
+<!--TODO: Képeket rendezni úgy, hogy ne legyenek egyformák!-->
+<section id="img-container">
+  <img src="img/_MG_1022.jpg" alt="" class="img-home" >
+  <img src="img/_MG_1045.jpg" alt="" class="img-home">
+  <img src="img/_MG_1057.jpg" alt="" class="img-home">
+  <img src="img/_MG_1159.jpg" alt="" class="img-home" >
+  <img src="img/_MG_1185.jpg" alt="" class="img-home">
+  <img src="img/_MG_1190.jpg" alt="" class="img-home">
+  <img src="img/_MG_1203.jpg" alt="" class="img-home" >
+  <img src="img/_MG_1245.jpg" alt="" class="img-home">
+  <img src="img/_MG_1285.jpg" alt="" class="img-home">
+  <img src="img/_MG_1315 (1).jpg" alt="" class="img-home" >
+  <img src="img/_MG_1349.jpg" alt="" class="img-home">
+  <img src="img/_MG_1388 (1).jpg" alt="" class="img-home">
+  <img src="img/_MG_1541.jpg" alt="" class="img-home" >
+  <img src="img/_MG_1550 (1).jpg" alt="" class="img-home">
+  <img src="img/_MG_1713.jpg" alt="" class="img-home">
+  <img src="img/IMG_3126.jpg" alt="" class="img-home" >
+  <img src="img/_MG_2086_remastered.jpg" alt="" class="img-home">
+  <img src="img/IMG_0136.jpg" alt="" class="img-home">
+  <img src="img/_MG_1541.jpg" alt="" class="img-home" >
+  <img src="img/_MG_1550 (1).jpg" alt="" class="img-home">
+  <img src="img/_MG_1713.jpg" alt="" class="img-home">
+  <img src="img/IMG_3126.jpg" alt="" class="img-home" >
+  <img src="img/_MG_2086_remastered.jpg" alt="" class="img-home">
+  <img src="img/IMG_3126.jpg" alt="" class="img-home">
+
+</section>
 <section id="home">
   <h1>Bemutatkozás</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nulla culpa dolorum vitae consequuntur, atque ipsam vel aspernatur minima similique tenetur rerum adipisci quam. Maiores ea error odio fuga hic?</p>
 </section>
-<hr>
-  <h3>Munkáim</h3>
+
+
+
+p {
+    text-align: center;
+}
+
+h3 {
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+section#home {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 0 50px 0;
+}
+
+section#img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.img-home {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+img {
+    width: 30%;
+}
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item menu-item menu-li">
+                    <a class="nav-link" aria-current="page" href="index.html">Főoldal</a>
+                </li>
+                <li class="nav-item menu-item menu-li">
+                    <a class="nav-link" href="gallery.html">Galéria</a>
+                </li>
+                <li class="nav-item menu-item menu-li">
+                  <a class="nav-link" aria-current="page" href="#">Modellek</a>
+              </li>
+              <li class="nav-item menu-item menu-li last-child">
+                  <a class="nav-link" href="#">Elérhetőség</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  .nav-link {
+    color: black;
+}
+
+/*.nav-link:hover {
+    color: black;
+   -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.61);
+}*/
+
+a {
+    font-weight: bold;
+}
+
+menü!!
+
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: rgba(0, 0, 0, 0.6) url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG');
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+            grid-row: 1;
+            grid-column: 1/5;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #ffd700;
+            /* Change the color on hover */
+        }
