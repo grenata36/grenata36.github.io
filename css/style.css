@@ -68,7 +68,8 @@ h1 {
 
 /* menü vége */
 
-#date {
+#date,
+#day {
     padding-right: 10px;
 }
 
