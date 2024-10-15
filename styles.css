@@ -70,12 +70,8 @@ header, .intro, .photos, .contact {
 h1 {
     text-align: center;
     color: #333;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
-/*
-h1, h2 {
-    color: #333;
-}*/
 
 .intro-content {
     display: flex;
@@ -120,8 +116,13 @@ h1, h2 {
 }
 
 .contact-content-y1 {
-    padding: 5px 5px 5px 5px ;
+    padding-top: 25px;
 }
+
+.bold-text {
+    font-weight: bold;
+  }
+  
 
 /* image */
 
@@ -131,7 +132,7 @@ h1, h2 {
 .gallery {
     grid-row: 5;
     grid-column: 1/6;
-    padding-top: 100px;
+    
 }
 
 .gallery-container {
