@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Cégünk Csoportja</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -26,21 +27,59 @@
         <h1>Galéria</h1>
       </header>
       
-      <div id="img-ctr">
+   <!--fotó rész-->
+   <div class="gallery" id="gallery">
+ 
+    <div class="gallery-container">
+    
+      <img src="img/asztalos_1.jpg" alt="Kép 1" class="gallery-image" data-large="img/asztalos_1.jpg">
+      <img src="img/asztalos_10.jpg" alt="Kép 2" class="gallery-image" data-large="img/asztalos_10.jpg">
 
-        <img src="img/asztalos_1.jpg" class="img-thumbnail" alt="">
-        <img src="img/asztalos_10.jpg" class="img-thumbnail" alt="">
-        <img src="img/asztalos_11.jpg" class="img-thumbnail" alt="">
-        <img src="img/asztalos_3.jpg" class="img-thumbnail" alt="">
-        <img src="img/asztalos_4.jpg" class="img-thumbnail" alt="">
-        <img src="img/asztalos_5.jpg" class="img-thumbnail" alt="">
-        <img src="img/asztalos_7.jpg" class="img-thumbnail" alt="">
-        <img src="img/asztalos_8.jpg" class="img-thumbnail" alt="">
-        <img src="img/DSC_0025.JPG" class="img-thumbnail" alt="">
-        <img src="img/DSC_0043.JPG" class="img-thumbnail" alt="">
+      <img src="img/asztalos_11.jpg" alt="Kép 3" class="gallery-image" data-large="img/asztalos_11.jpg">
+      <img src="img/asztalos_2.jpg" alt="Kép 4" class="gallery-image" data-large="img/asztalos_2.jpg">
+      <img src="img/asztalos_5.jpg" alt="Kép 5" class="gallery-image" data-large="img/asztalos_5.jpg">
+      <img src="img/DSC_0013.JPG" alt="Kép 6" class="gallery-image" data-large="img/DSC_0013.JPG">
+      <img src="img/DSC_0032.JPG" alt="Kép 7" class="gallery-image" data-large="img/DSC_0032.JPG">
 
-        </div>
-        
+      <img src="img/DSC_0027.JPG" alt="Kép 8" class="gallery-image" data-large="img/DSC_0027.JPG">
+      <img src="img/DSC_0037.JPG" alt="Kép 9" class="gallery-image" data-large="img/DSC_0037.JPG">
+      <img src="img/IMG20241004103148.jpg" alt="Kép 10" class="gallery-image" data-large="img/IMG20241004103148.jpg">
+      <img src="img/IMG20241004103454.jpg" alt="Kép 11" class="gallery-image" data-large="img/IMG20241004103454.jpg">
+      <img src="img/IMG20241004103445.jpg" alt="Kép 12" class="gallery-image" data-large="img/IMG20241004103445.jpg">
+      <img src="img/IMG20241004103611.jpg" alt="Kép 13" class="gallery-image" data-large="img/IMG20241004103611.jpg">
+   
+    
+    </div>
+    
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-content">
+        <img id="modal-image" src="" alt="Nagy méretű kép">
+      </div>
+    </div>
+
+    
+    <script>
+      $(document).ready(function() {
+      
+        $('.gallery-image').click(function() {
+          $('#modal-image').attr('src', $(this).data('large'));
+          $('#myModal').fadeIn();
+        });
+      
+    
+        $('.close, #myModal').click(function() {
+          $('#myModal').fadeOut();
+        });
+      
+    
+        $('#modal-image').click(function(event) {
+          event.stopPropagation();
+        });
+      });
+      </script>
+         <!--fotó rész-->
+
 
   </body>
 </html>
