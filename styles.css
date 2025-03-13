@@ -12,12 +12,14 @@ header {
     color: white;
     padding: 1em 0;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 main {
     padding: 1em;
     max-width: 800px;
     margin: auto;
+    background-color: #DFFFE2;
 }
 
 section {
@@ -29,7 +31,7 @@ h1, h2 {
 }
 
 a {
-    color: #4CAF50;
+    color: white;
     text-decoration: none;
 }
 
@@ -38,9 +40,17 @@ a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.footerh {
+    margin: 20px 0 0 0;
 }
