@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -5,11 +10,16 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+
 }
 
 nav {
     background-color: #333;
     padding: 10px;
+    position: fixed;
+    top: 0;
+  left: 0;
+  width: 100%;
 }
 nav ul {
     list-style-type: none;
