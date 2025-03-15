@@ -60,6 +60,8 @@ main {
     margin: auto;
     background-color: #DFFFE2;
     margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 section {
