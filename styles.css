@@ -55,12 +55,11 @@ header {
 }
 
 main {
-    display: grid;
-    grid-template-columns: (2,1fr);
     padding: 1em;
     max-width: 800px;
     margin: auto;
     background-color: #DFFFE2;
+    margin-bottom: 50px;
 }
 
 section {
@@ -69,6 +68,10 @@ section {
 
 section p {
     text-align: justify;
+}
+
+section a {
+    color: black;
 }
 
 h1,
