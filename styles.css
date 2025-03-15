@@ -55,6 +55,8 @@ header {
 }
 
 main {
+    display: grid;
+    grid-template-columns: (2,1fr);
     padding: 1em;
     max-width: 800px;
     margin: auto;
@@ -63,6 +65,10 @@ main {
 
 section {
     margin-bottom: 2em;
+}
+
+section p {
+    text-align: justify;
 }
 
 h1,
